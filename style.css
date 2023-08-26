@@ -7,7 +7,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(./asset/BigSurGraphic.jpg);
+  /* background: url(./asset/BigSurGraphic.jpg); */
+  background-color: brown;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -100,7 +101,12 @@ body {
   color: #fff;
   font-weight: 500;
 }
-.music-player-wrapper .music-player .music-info .info-right .music-name .musician {
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .music-name
+  .musician {
   display: block;
   color: rgb(232, 225, 231);
   font-size: 20px;
@@ -117,16 +123,42 @@ body {
   justify-content: center;
   align-items: center;
 }
-.music-player-wrapper .music-player .music-info .info-right .playback-setting .previous {
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .playback-setting
+  .previous {
   transform: rotate(180deg);
 }
-.music-player-wrapper .music-player .music-info .info-right .playback-setting .icon-next {
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .playback-setting
+  .icon-next {
   font-size: 35px;
 }
-.music-player-wrapper .music-player .music-info .info-right .playback-setting .icon-bofang, .music-player-wrapper .music-player .music-info .info-right .playback-setting .icon-zanting1 {
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .playback-setting
+  .icon-bofang,
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .playback-setting
+  .icon-zanting1 {
   font-size: 55px !important;
 }
-.music-player-wrapper .music-player .music-info .info-right .playback-setting .icon-zanting1 {
+.music-player-wrapper
+  .music-player
+  .music-info
+  .info-right
+  .playback-setting
+  .icon-zanting1 {
   display: none;
 }
 .music-player-wrapper .music-player .progress-bar {
@@ -158,4 +190,4 @@ body {
   top: -24px;
   color: rgb(242, 196, 210);
   font-weight: 600;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
